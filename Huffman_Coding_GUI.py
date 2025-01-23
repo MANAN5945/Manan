@@ -354,7 +354,6 @@ class App(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication([])
-    app.setStyle("Fusion")
     window = App()
     window.show()
     app.exec_()
