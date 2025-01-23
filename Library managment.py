@@ -163,7 +163,7 @@ def sib():
     
 Database()
 import mysql.connector as ms
-cobj=ms.connect(host='localhost',user='root',passwd='5945',database='libt')
+cobj=ms.connect(host='localhost',user='root',passwd='****',database='libt')
 if cobj.is_connected():
     print('WELCOME TO LIBRARY MANAGEMENT SOFTWARE')
     cur=cobj.cursor()
